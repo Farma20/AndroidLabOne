@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity2"
+    android:background="@color/color3">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Описание"
+        android:textColor="@color/color2"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="32dp"
+        android:text="«Candyland» является социально значимым предприятием для города и края. Компания развивает партнерские отношения с органами власти и общественными организациями, ведет благотворительную деятельность. Компания регулярно принимает участие в крупных региональных, всероссийских и международных выставках. Большая часть продукции компании отмечена престижными призами и наградами. является социально значимым предприятием для города и края. Компания развивает партнерские отношения с органами власти и общественными организациями, ведет благотворительную деятельность. Компания регулярно принимает участие в крупных региональных, всероссийских и международных выставках. Большая часть продукции компании отмечена престижными призами и наградами."
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.25" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
